@@ -8,12 +8,13 @@
     <title>Formulário de Cadastro</title>
 </head>
 <body>
-    <div>
-        <h1 class="titulo">Cadastro de Desenvolvedoress</h1>
-        <h4 class="subtitulo">"Complete com suas informações</h4>
+    <div class="titulo">
+        <h1>Cadastro de Desenvolvedores</h1>
+        <h4>Complete com as suas informações</h4>
         <br>
     </div>
     
+    <fieldset class="general-fieldset">
     <form>
         <fieldset class="grupo">
             <div class="campo">
@@ -54,7 +55,7 @@
         <br>
 
         <fieldset class="grupo">
-        <div>
+        <div class="campo">
             <label>Selecione as tecnologias que utiliza:</label>
             <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML"/>
                 <label for="tecnologia1">HTML</label>
@@ -80,14 +81,14 @@
         </fieldset>
         <br>
 
-        <div>
+        <div class="campo">
             <label>Conte um pouco sobre suas experiências na área de desenvovimento:</label>
             <textarea row="6"></textarea>
         </div>
         <br>
 
         <button class="button" type="submit">Concluído</button>
-
     </form>
+    </fieldset>
 </body>
 </html>
