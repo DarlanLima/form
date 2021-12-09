@@ -1,0 +1,24 @@
+{
+  "name": "formulario",
+  "version": "0.0.1",
+  "description": "Form created html and css",
+  "main": "/src/index.html",
+  "scripts": {
+    "start": "npx live-server src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarlanLima/form.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "Darlan Gabriel de Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarlanLima/form/issues"
+  },
+  "homepage": "https://github.com/DarlanLima/form#readme"
+}
